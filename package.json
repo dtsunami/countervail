@@ -1,0 +1,21 @@
+{
+  "name": "countervail",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An agent platform that absorbs manufactured friction.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "spike": "node spike/run.js",
+    "spike:install-browser": "playwright install chromium"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "@fastify/formbody": "^8.0.2",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.1",
+    "playwright": "^1.56.0"
+  }
+}
